@@ -1,0 +1,9 @@
+{
+	"name": "enginnerdatafactory",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f27d2abd-1a1d-407e-947b-da3db0f4b505",
+		"tenantId": "38ae2f02-5710-4e12-80bb-83600c3fdf1e"
+	}
+}
