@@ -1,0 +1,24 @@
+{
+	"name": "DatasetMovies",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerMove",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "FormBD"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
