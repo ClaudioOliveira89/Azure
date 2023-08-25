@@ -1,0 +1,13 @@
+{
+	"name": "HttpServerMovies",
+	"properties": {
+		"description": "Coleta de dado servidor",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
