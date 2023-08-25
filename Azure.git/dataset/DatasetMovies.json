@@ -1,0 +1,26 @@
+{
+	"name": "DatasetMovies",
+	"properties": {
+		"description": "Dataset de servidor web com arquivo CSV",
+		"linkedServiceName": {
+			"referenceName": "HttpServerfilmes",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "DBMovies"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
