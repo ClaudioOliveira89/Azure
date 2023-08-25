@@ -1,0 +1,9 @@
+{
+	"name": "Azuredatafactury",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "527f0ad5-923e-40b1-879d-d56cc54f3d9e",
+		"tenantId": "38ae2f02-5710-4e12-80bb-83600c3fdf1e"
+	}
+}
