@@ -1,5 +1,5 @@
 {
-	"name": "SQL script 3",
+	"name": "Copyinto",
 	"properties": {
 		"content": {
 			"query": "COPY INTO [dbo].[DimEmployee]\n\nFROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/DimEmployee.csv'\n\nWITH (\n\nFILE_TYPE='CSV',\n\nFIELDTERMINATOR='|',\n\nFIELDQUOTE='',\n\nROWTERMINATOR='\\n',\n\nENCODING = 'UTF16'\n\n);GO",

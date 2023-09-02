@@ -1,8 +1,8 @@
 {
-	"name": "SQL script 1",
+	"name": "Inicio",
 	"properties": {
 		"content": {
-			"query": "SELECT TOP (100) [EmployeeKey]\n,[ParentEmployeeKey]\n,[EmployeeNationalIDAlternateKey]\n,[ParentEmployeeNationalIDAlternateKey]\n,[SalesTerritoryKey]\n,[FirstName]\n,[LastName]\n,[MiddleName]\n,[NameStyle]\n,[Title]\n,[HireDate]\n,[BirthDate]\n,[LoginID]\n,[EmailAddress]\n,[Phone]\n,[MaritalStatus]\n,[EmergencyContactName]\n,[EmergencyContactPhone]\n,[SalariedFlag]\n,[Gender]\n,[PayFrequency]\n,[BaseRate]\n,[VacationHours]\n,[SickLeaveHours]\n,[CurrentFlag]\n,[SalesPersonFlag]\n,[DepartmentName]\n,[StartDate]\n,[EndDate]\n,[Status]\n,[EmployeePhoto]\n FROM [dbo].[DimEmployee]",
+			"query": "CREATE TABLE [dbo].[Table]\n(\n    col1 int NOT NULL\n)\nWITH\n(\n    DISTRIBUTION = HASH (col1),\n    CLUSTERED COLUMNSTORE INDEX\n)\nGO\n",
 			"metadata": {
 				"language": "sql"
 			},
