@@ -5,7 +5,7 @@
 			"name": "Interno"
 		},
 		"content": {
-			"query": "SELECT top 50 *\nFROM OPENROWSET(\n    BULK 'https://pandemicdatalake.blob.core.windows.net/public/curated/covid-19/ecdc_cases/latest/ecdc_cases.csv',\n    FORMAT = 'csv',\n    PARSER_VERSION = '2.0',\n    HEADER_ROW = TRUE\n    --FIRSTROW = 2\n    ) AS [r]\n",
+			"query": "SELECT *\nFROM OPENROWSET(\n    BULK 'https://pandemicdatalake.blob.core.windows.net/public/curated/covid-19/ecdc_cases/latest/ecdc_cases.csv',\n    FORMAT = 'csv',\n    PARSER_VERSION = '2.0',\n    HEADER_ROW = TRUE\n    --FIRSTROW = 2\n    ) AS [r]\nWHERE [countries_and_territories] = 'Brazil'",
 			"metadata": {
 				"language": "sql"
 			},
