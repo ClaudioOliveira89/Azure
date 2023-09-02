@@ -17,7 +17,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "d0d8f24c-2b8a-40a4-953f-aa083aee63f7"
+				"spark.autotune.trackingId": "6735325a-f770-4ffe-9e3c-7607848936a0"
 			}
 		},
 		"metadata": {
@@ -55,9 +55,15 @@
 					"new_tupla2 = ('Wa', 12450, 55000)\r\n",
 					"new_tupla3 = ('LA', 12333, 45000)\r\n",
 					"\r\n",
-					"print(new_tupla3)"
+					"new_array_linhas = [new_tupla1, new_tupla2, new_tupla3]\r\n",
+					"new_array_colunas = ['State', 'population', 'Salarie']\r\n",
+					"\r\n",
+					"dataframe = spark.createDataFrame(new_array_linhas, new_array_colunas)\r\n",
+					"dataframe.show()\r\n",
+					"\r\n",
+					"#print(new_array1)"
 				],
-				"execution_count": 3
+				"execution_count": 7
 			}
 		]
 	}
