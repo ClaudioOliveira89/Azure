@@ -1,4 +1,6 @@
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) 
+![Azure](https://img.shields.io/badge/azure-114bad.svg?style=for-the-badge&logo=microsoftazure%20&logoColor=white) 
+![MicrosoftSQLServer](https://img.shields.io/badge/SQL%20Server-003545?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+![Azure](https://img.shields.io/badge/Apache%20Spark-%114bad.svg?style=for-the-badge&logo=apachespark&logoColor=white)
 
 # Cloud Computing and Data Engineer. 
 
