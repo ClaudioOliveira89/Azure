@@ -43,3 +43,5 @@ No mundo atual, orientado por dados, a computação em nuvem e a engenharia de d
 - **Azure Synapse**: Utilização do Azure Synapse Analytics para data warehousing e processamento de grandes volumes de dados em larga escala.
 - **SQL Pool**: Gerenciamento de SQL pools no Azure Synapse para consultas de alto desempenho.
 - **Apache Spark**: Aproveitamento do poder do Apache Spark para processamento e análise distribuída de dados.
+
+![235362472-a8290262-ed58-41bd-b69c-f71ac44faacf](https://user-images.githubusercontent.com/87618859/270218356-f2cb52f4-0d08-4b3d-9c16-e10af55a252c.jpg)
