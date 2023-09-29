@@ -2,27 +2,6 @@
 ![MicrosoftSQLServer](https://img.shields.io/badge/SQL%20Server-003545?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![Azure](https://img.shields.io/badge/Apache%20Spark-%114bad.svg?style=for-the-badge&logo=apachespark&logoColor=white)
 
-# Cloud Computing and Data Engineering Repository.
-
-This repository has been created for in-depth studies in the field of cloud computing and data engineering technologies. It covers a wide range of topics including data lake, data factory, dataset, data flow, pipeline, data warehouse, Databricks, Azure Synapse, SQL Pool, and Apache Spark.
-
-## Overview
-
-In today's data-driven world, cloud computing and data engineering play a pivotal role in managing and processing large volumes of data efficiently. This repository is dedicated to exploring and mastering the technologies and concepts that are essential for professionals in these domains.
-
-## Topics Covered
-
-- **Data Lake**: Understanding the concept of a data lake and how to efficiently store and manage diverse data types.
-- **Data Factory**: Creating data pipelines and workflows for data ingestion, transformation, and movement.
-- **Dataset**: Examining datasets and their role in data analysis and machine learning.
-- **Data Flow**: Designing data flow processes to manipulate and prepare data for analysis.
-- **Pipeline**: Building data pipelines for ETL (Extract, Transform, Load) operations.
-- **Data Warehouse**: Exploring the principles of data warehousing and its role in business intelligence.
-- **Databricks**: Leveraging Databricks for big data analytics and machine learning tasks.
-- **Azure Synapse**: Utilizing Azure Synapse Analytics for data warehousing and large-scale data processing.
-- **SQL Pool**: Managing SQL pools in Azure Synapse for high-performance querying.
-- **Apache Spark**: Harnessing the power of Apache Spark for distributed data processing and analysis.
-
 # Repositório de Computação em Nuvem e Engenharia de Dados.
 
 Este repositório foi criado para estudos detalhados no campo de tecnologias de computação em nuvem e engenharia de dados. Ele abrange uma ampla gama de tópicos, incluindo data lake, data factory, dataset, data flow, pipeline, data warehouse, Databricks, Azure Synapse, SQL Pool e Apache Spark.
